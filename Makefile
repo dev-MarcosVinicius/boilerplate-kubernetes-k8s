@@ -3,3 +3,12 @@ kubectl_install:
 
 kind_install:
 	./scripts/kind_install.sh
+
+cluster_up:
+	./scripts/cluster_up.sh
+
+cluster_down:
+	./scripts/cluster_down.sh
+
+run_projects:
+	./scripts/run_projects.sh
